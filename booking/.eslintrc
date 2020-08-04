@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "extends": ["airbnb", "airbnb/hooks"],
+  "globals": {
+    "window": true,
+    "document": false,
+    "localStorage": true,
+    "sessionStorage": true,
+    "fetch": false
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "import/no-cycle": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [0],
+    "import/extensions": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}
